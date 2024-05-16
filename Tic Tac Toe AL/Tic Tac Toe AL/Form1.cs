@@ -22,8 +22,12 @@ namespace Tic_Tac_Toe_AL
 
         private void button_Click(object sender, EventArgs e)
         {
+            if (bt.Text != "")
+            {
+                MessageBox.Show("That area is already full");
+                return; 
+            }
             Button bt = sender as Button;
-            bt.Enabled = false;
             bt.BackColor = Color.AliceBlue;
             if (who == 'o')
             {
