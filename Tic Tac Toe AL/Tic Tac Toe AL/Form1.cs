@@ -87,7 +87,7 @@ namespace Tic_Tac_Toe_AL
 
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This is a simple Tic Tac Toe game with simple rules and the authors are Alima and Aisha (no one else)");
+            MessageBox.Show("This is a simple Tic Tac Toe game with simple rules");
         }
     }
 }
